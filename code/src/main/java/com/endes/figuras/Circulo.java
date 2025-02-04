@@ -28,12 +28,15 @@ public class Circulo extends FiguraGeometrica {
 	}
 	
 	public void rotar (double angulo) {
+		 System.out.println("Rotando la figura " + nombre + " en " + angulo + " grados.");
+		
 		
 		
 		
 	}
 	
 	public void trasladar (double dx, double dy) {
+		System.out.println("Trasladando la figura " + nombre + " en (" + dx + ", " + dy + ").");
 		
 		
 	}
